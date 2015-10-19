@@ -1,0 +1,70 @@
+/*
+600 and greater
+
+Navigation changes from vertical list to horizontal
+*/
+
+header {
+	min-height:162px;
+}
+.home header {
+	min-height:616px;
+}
+
+.ie8 .home header {
+	min-height:162px;
+}
+
+.ie7 .home header {
+	min-height:162px;
+}
+
+.head_organization_banner img {
+    max-height: 109px;
+}
+
+.head_cagov_logo {
+    top: 20px;
+}
+
+.head_organization_banner {
+    top: 5px !important;
+}
+
+.home .head_organization_banner {
+    top: 8px !important;
+}
+
+.home #main_content {
+	padding-top:0; /* reserve space for wave over footer */
+}
+
+
+.home #head_search {
+	width: 18%;
+}
+
+#head_search {
+	width: 18%;
+}
+
+#navigation {
+    top: 111px;
+}
+
+.nav_p_description {
+    font-size: 14px;
+}
+
+.nav_p_heading {
+    font-size: 20px;
+    color:#000;
+}
+
+#navigation .nav_panel li {
+    padding: 10px 4px 14px 4px;
+}
+
+#navigation.mininav .nav_panel li {
+	background:transparent url(../images/content/list-primary.png) no-repeat 5px 8px !important;
+}

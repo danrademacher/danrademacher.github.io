@@ -1,0 +1,207 @@
+h3,
+h4,
+h5 {
+  color: #121214;
+}
+a {
+  /*color: #0088cc;*/
+  color: #025F8E;
+}
+a:hover {
+  color: #0099e6;
+  text-decoration: none;
+}
+a:active {
+  color: #0077b3;
+}
+.alternative-font {
+  color: #025F8E;
+}
+p.drop-caps:first-child:first-letter {
+  color: #025F8E;
+}
+p.drop-caps.secundary:first-child:first-letter {
+  background-color: #025F8E;
+}
+ul.nav-pills > li.active > a,
+ul.nav-pills > li.active > a:hover,
+ul.nav-pills > li.active > a:focus {
+  background-color: #025F8E;
+}
+div.sort-source-wrapper .nav > li.active > a,
+div.sort-source-wrapper .nav > li.active > a:hover,
+div.sort-source-wrapper .nav > li.active > a:focus {
+  color: #025F8E;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #025F8E;
+}
+.btn-primary,
+.pagination > .active > a {
+  border-color: #025F8E;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #025F8E;
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+.btn-primary:hover,
+.pagination > .active > a:hover {
+  border-color: #0099e6;
+  background-color: #0099e6;
+}
+.btn-primary:active,
+.pagination > .active > a:active,
+.btn-primary:focus,
+.pagination > .active > a:focus {
+  border-color: #0077b3;
+  background-color: #0077b3;
+}
+.progress-bar-primary {
+  background-color: #025F8E;
+}
+body.boxed div.body {
+  border-top-color: #025F8E;
+}
+section.highlight {
+  background-color: #025F8E;
+  border-color: #0077b3;
+}
+section.page-top h2 {
+  border-bottom-color: #025F8E;
+}
+section.toggle label {
+  color: #025F8E;
+  border-left-color: #025F8E;
+}
+section.toggle.active > label {
+  background-color: #025F8E;
+  border-color: #025F8E;
+  color: #FFF;
+}
+section.page-top.custom-product {
+  background-color: #0077b3;
+  border-top-color: #0081c2;
+}
+div.feature-box div.feature-box-icon {
+  background-color: #025F8E;
+}
+ul.history li div.featured-box div.box-content {
+  border-top-color: #025F8E;
+}
+div.feature-box.secundary div.feature-box-icon i.icon {
+  color: #025F8E;
+}
+a.thumb-info span.thumb-info-type {
+  background-color: #025F8E;
+}
+a.thumb-info span.thumb-info-action-icon {
+  background-color: #025F8E;
+}
+.thumbnail span.zoom {
+  background-color: #025F8E;
+}
+span.thumb-info-social-icons a {
+  background-color: #025F8E;
+}
+.inverted {
+  background-color: #025F8E;
+}
+div.tabs ul.nav-tabs a,
+div.tabs ul.nav-tabs a:hover {
+  color: #025F8E;
+}
+div.tabs ul.nav-tabs a:hover {
+  border-top-color: #025F8E;
+}
+div.tabs ul.nav-tabs li.active a {
+  border-top-color: #025F8E;
+  color: #025F8E;
+
+}
+ul.list.icons li i {
+  color: #025F8E;
+}
+i.icon-featured {
+  background-color: #025F8E;
+}
+.parallax blockquote i.icon-quote-left {
+  color: #025F8E;
+}
+section.video blockquote i.icon-quote-left {
+  color: #025F8E;
+}
+.panel-heading a {
+  color: #025F8E;
+}
+div.slider div.tp-bannertimer {
+  background-color: #025F8E;
+}
+div.home-intro p em {
+  color: #00aaff;
+}
+div.home-concept strong {
+  color: #025F8E;
+}
+blockquote.testimonial {
+  background: #0099e6;
+}
+div.testimonial-arrow-down {
+  border-top-color: #0099e6;
+}
+div.recent-posts div.date span.month,
+article.post div.post-date span.month {
+  background-color: #025F8E;
+  padding: 5px 16px 5px;
+}
+div.recent-posts div.date span.day,
+article.post div.post-date span.day {
+  color: #025F8E;
+}
+div.shop ul.products li.product .onsale {
+  background-color: #025F8E;
+}
+div.featured-box-secundary i.icon-featured,
+div.featured-box-secundary i.image-icon {
+  background-color: #025F8E;
+}
+div.featured-box-secundary h4 {
+  color: #025F8E;
+}
+div.featured-box-secundary div.box-content {
+  border-top-color: #025F8E;
+}
+div.pricing-table div.most-popular {
+  border-color: #025F8E;
+}
+div.pricing-table div.most-popular h3 {
+  background-color: #025F8E;
+}
+section.timeline .timeline-box.left:before,
+section.timeline .timeline-box.right:before {
+  background: #025F8E;
+  box-shadow: 0 0 0 3px #ffffff, 0 0 0 6px #025F8E;
+}
+footer div.footer-ribon {
+  background: #025F8E;
+}
+footer div.footer-ribon:before {
+  border-right-color: #005580;
+}
+div.shop ul.products li.product .onsale {
+  background-color: #025F8E;
+  border-bottom-color: #006da3;
+}
+div.shop .star-rating span,
+div.shop .cart-totals tr.total .amount {
+  color: #025F8E;
+}
+
+table {
+    border-collapse: collapse;
+}

@@ -1,0 +1,57 @@
+.c2-sb-wrap { position: relative; display: inline; float: left; }
+.c2-sb-inner-wrap { position: relative; height: 25px; padding-left: 6px; background: url(images/custom-select.png) no-repeat 0px 0px; }
+.c2-sb-wrap .c2-sb-text { position: relative; display: inline; float: left; height: 14px; overflow: hidden; padding: 5px 0px 6px 0; border: 0 none; color: #524433; font-size: 14px; line-height: 14px; cursor: pointer; background: url(images/custom-select.png) repeat-x 0 -25px; white-space: nowrap; font-family: 'HelveticaNeue-Bold', Arial, sans-serif; font-weight: normal; text-align: center; }
+.c2-sb-wrap .c2-sb-button { position: relative; display: inline; float: left; width: 29px; height: 25px; font-size: 0px; line-height: 0px; text-indent: -4000px; background: url(images/custom-select.png) repeat-x 0 -50px; cursor: pointer; }
+.c2-sb-wrap .c2-sb-list-wrap { display: none; position: absolute; left: 0px; top: 100%; border: 1px solid #828080; background: #FFFFFF; min-width: 100%; max-height: 170px; overflow-x: hidden; }
+.c2-sb-wrap .c2-sb-list-wrap .c2-sb-list { display: block; position: relative; list-style-type: none; padding: 0px; margin: 0px; display: block; overflow-x: hidden; }
+.c2-sb-wrap .c2-sb-list-wrap .c2-sb-list .c2-sb-list-item { display: block; width: 100%; padding: 0px; margin: 0px; }
+.c2-sb-wrap .c2-sb-list-wrap .c2-sb-list .c2-sb-list-item .c2-sb-list-item-link { display: block; padding: 10px 5px; margin: 0px; height: 14px; line-height: 14px; white-space: nowrap; text-decoration: none; color: #878686; font-size: 14px; }
+.c2-sb-wrap .c2-sb-list-wrap .c2-sb-list .c2-sb-list-item .c2-sb-list-item-link:hover,
+.c2-sb-wrap .c2-sb-list-wrap .c2-sb-list .c2-sb-list-item .c2-sb-list-item-link-active { background: #f3f3f3; }
+
+/* States */
+.c2-sb-wrap,
+.c2-sb-wrap .c2-sb-inner-wrap,
+.c2-sb-wrap .c2-sb-text,
+.c2-sb-wrap .c2-sb-button { z-index: 10; }
+.c2-sb-wrap .c2-sb-list-wrap { z-index: 6; }
+
+.c2-sb-closing,
+.c2-sb-closing .c2-sb-inner-wrap,
+.c2-sb-closing .c2-sb-text,
+.c2-sb-closing .c2-sb-button { z-index: 15; }
+.c2-sb-closing .c2-sb-list-wrap { z-index: 11; }
+
+.c2-sb-open,
+.c2-sb-open .c2-sb-inner-wrap,
+.c2-sb-open .c2-sb-text,
+.c2-sb-open .c2-sb-button { z-index: 20; }
+.c2-sb-open .c2-sb-list-wrap { z-index: 16; }
+
+/* jScroll Pane overrides */
+.c2-sb-wrap .jspTrack { background: #F3F3F3; }
+.c2-sb-wrap .jspDrag { background: #333;  }
+.c2-sb-wrap .jspArrowUp { background: #ccc;  }
+.c2-sb-wrap .jspArrowDown { background: #ccc;  }
+
+.c2-sb-focused { outline: 1px dotted #000000; }
+
+/* js scroll pane*/
+.jspContainer { overflow: hidden; position: relative; }
+.jspPane { position: absolute; }
+.jspVerticalBar { position: absolute; top: 0; right: 0; width: 16px; height: 100%; background: red; }
+.jspHorizontalBar { position: absolute; bottom: 0; left: 0; width: 100%; height: 16px; background: red; }
+.jspVerticalBar *, .jspHorizontalBar * { margin: 0; padding: 0; }
+.jspCap { display: none; }
+.jspHorizontalBar .jspCap { float: left; }
+.jspTrack { background: #dde; position: relative; } 
+.jspDrag { background: #bbd; position: relative; top: 0; left: 0; cursor: pointer; } 
+.jspHorizontalBar .jspTrack, .jspHorizontalBar .jspDrag { float: left; height: 100%; } 
+.jspArrow { background: #50506d; text-indent: -20000px; display: block; cursor: pointer; } 
+.jspArrow.jspDisabled { cursor: default; background: #80808d; } 
+.jspVerticalBar .jspArrow { height: 16px; } 
+.jspHorizontalBar .jspArrow { width: 16px; float: left; height: 100%; }
+.jspVerticalBar .jspArrow:focus { outline: none; }
+.jspCorner { background: #eeeef4; float: left; height: 100%; }
+/* CSS Hack for IE6 */
+* html .jspCorner { margin: 0 -3px 0 0; }

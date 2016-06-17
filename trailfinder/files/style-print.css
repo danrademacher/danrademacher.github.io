@@ -1,0 +1,4 @@
+#header, #top-footer, #footer, #sidebar, #navigation, #sub-navigation, .all-comments, .info-map, #comment_form, #breadcrumb, .tags-view, .wp-caption, .really_simple_share, .event-info, .navlink, .ical, .gcal-add { display: none; }
+
+.heading-info, .left-side, .col, .box-navigation, #trip_help, #trip_editor, .options, .comments, #trip_edit, #trip_update, .wpfp-span { display: none; }
+.item { display: block !important; }

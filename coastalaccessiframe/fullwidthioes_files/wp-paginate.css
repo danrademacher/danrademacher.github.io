@@ -1,0 +1,14 @@
+.wp-paginate {
+	padding: 0;
+	margin: 0;
+	font-family: $secondary-font, monospace;
+	font-size: 14px;
+	font-weight: 600;
+	float: right;
+	margin: 25px 0;
+}
+
+.wp-paginate li {
+	list-style: none;
+	display: inline-block;
+}

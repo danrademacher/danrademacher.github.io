@@ -1,0 +1,213 @@
+body {
+    font-family: 'Nunito', sans-serif;	
+}
+
+.grid {
+  max-width: none;
+  margin: 0 auto;
+  overflow: hidden; 
+}
+
+/* not vital to Reanimator, but for this page we do want margin and borders */
+div.reanimator {
+    margin:1em auto;
+    border:none;
+    max-width: 800px;
+    display: block;
+}
+
+h2 {
+	color:#1f4b86;
+}
+
+h3 {
+	color:#3384bf;
+	font-style: italic;
+}
+
+.chart {
+	color:#02793d;
+	font-style: normal;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Nunito', sans-serif;
+	color: #3384bf;
+	font-size: 24px;
+	text-transform: none;
+}
+
+h5 {
+	font-family: 'Nunito', sans-serif;
+	color: #3384bf;
+	font-size: 18px;
+	text-transform: none;
+	letter-spacing: 0;
+    border-bottom: none;
+}
+
+ul, ol {
+	list-style-type: disc;
+    padding: 0 20px;
+}
+
+p {
+	padding: 0.4em 0;
+}
+
+/* TEMPORARY 0 MARGIN AT TOP OF CONTENT */
+.site-content {
+    margin-top: 0;
+}
+
+/* Text overlay on top of image */
+.textblock {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    margin-right: 20px;
+    max-width: 200px;
+}
+
+/*No grid padding on mobile*/
+@media only screen and (max-width: 768px) {
+	.textblock {
+		max-width: 150px;
+	}
+}
+.relative {
+	position: relative;
+}
+
+#photopoints {
+    width: 40%;
+    float: left;
+    min-height: 1px;
+    padding-right: 20px;
+}
+#instagram {
+	width: 60%;
+    float: left;
+    min-height: 1px;
+    padding-right: 20px;
+}
+
+.headertext {
+    padding-top: 12.5%;
+}
+
+.headertext h1 {
+	padding:0;
+	text-align:center;
+	width: 100%;
+	color: white;
+	font-size: 50px;
+}
+
+.headertext h3 {
+	padding:0;
+	text-align:center;
+	width: 100%;
+	color: white;
+}
+
+.intro-block-home {
+    background: none;
+}
+
+.moviecredits {
+	background: none !important;
+}
+
+.story section {
+	background: none !important;
+}
+
+.graybg {
+	background: rgba(0,0,0,0.1);
+	padding: 8px;
+	border-radius: 0;
+}
+
+/*CARTO iframe max width*/
+@media handheld, only screen and (max-width: 767px) {
+	.mobile-half {
+		width: 50%;
+		float: right;
+	}
+}
+
+.grid-pad {
+	padding: 20px;
+}
+	
+/*No grid padding on mobile*/
+@media only screen and (max-width: 768px) {
+	.grid-pad {
+		padding: 0;
+	}
+}
+
+.responsive-container-white {
+	margin-bottom: 25px;
+}
+
+.responsive-container .grid-pad:first-child, .responsive-container-white .grid-pad:first-child, .responsive-container .subhead:first-child, .responsive-container-white .subhead:first-child {
+    padding: 20px !important;
+}
+
+/*CARTO iframe max width*/
+.carto {
+	max-width: 1199px;
+}
+
+/*specific opacity effects on the individual frame images*/
+div #animation1 img:nth-child(1) { opacity: 0.10; }
+div #animation1 img:nth-child(2) { opacity: 0.25; }
+div #animation1 img:nth-child(3) { opacity: 0.50; }
+div #animation1 img:nth-child(4) { opacity: 0.75; }
+div #animation1 img:nth-child(5) { opacity: 0.90; }
+
+div #animation1 img:nth-child(92) { opacity: 0.90; }
+div #animation1 img:nth-child(93) { opacity: 0.75; }
+div #animation1 img:nth-child(94) { opacity: 0.50; }
+div #animation1 img:nth-child(95) { opacity: 0.25; }
+div #animation1 img:nth-child(96) { opacity: 0.10; }
+
+div #connections img:nth-child(1) { opacity: 0.10; }
+div #connections img:nth-child(2) { opacity: 0.25; }
+div #connections img:nth-child(3) { opacity: 0.50; }
+div #connections img:nth-child(4) { opacity: 0.75; }
+div #connections img:nth-child(5) { opacity: 0.90; }
+
+div #connections img:nth-child(67) { opacity: 0.90; }
+div #connections img:nth-child(68) { opacity: 0.75; }
+div #connections img:nth-child(69) { opacity: 0.50; }
+div #connections img:nth-child(70) { opacity: 0.25; }
+div #connections img:nth-child(71) { opacity: 0.10; }
+
+div #newways img:nth-child(1) { opacity: 0.10; }
+div #newways img:nth-child(2) { opacity: 0.25; }
+div #newways img:nth-child(3) { opacity: 0.50; }
+div #newways img:nth-child(4) { opacity: 0.75; }
+div #newways img:nth-child(5) { opacity: 0.90; }
+
+div #newways img:nth-child(92) { opacity: 0.90; }
+div #newways img:nth-child(93) { opacity: 0.75; }
+div #newways img:nth-child(94) { opacity: 0.50; }
+div #newways img:nth-child(95) { opacity: 0.25; }
+div #newways img:nth-child(96) { opacity: 0.10; }
+
+/*
+div #beaches img:nth-child(1) { opacity: 0.10; }
+div #beaches img:nth-child(2) { opacity: 0.25; }
+div #beaches img:nth-child(3) { opacity: 0.50; }
+div #beaches img:nth-child(4) { opacity: 0.75; }
+div #beaches img:nth-child(5) { opacity: 0.90; }
+
+div #beaches img:nth-child(92) { opacity: 0.90; }
+div #beaches img:nth-child(93) { opacity: 0.75; }
+div #beaches img:nth-child(94) { opacity: 0.50; }
+div #beaches img:nth-child(95) { opacity: 0.25; }
+div #beaches img:nth-child(96) { opacity: 0.10; }*/

@@ -1,0 +1,39 @@
+div.scrollmovie {
+}
+
+
+div.scrollmovie div.scrollmovie-slides {
+    width: 100%;
+	max-width:100%;
+    display: none;
+}
+
+div.scrollmovie.scrollmovie-focused div.scrollmovie-slides {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+    display: block;
+}
+
+div.scrollmovie div.scrollmovie-slides img {
+    display:none;
+    width:100%;
+}
+
+div.scrollmovie.scrollmovie-focused section {
+    height: 100%; /* see resize code, since CSS can't really do this */
+    width: 100%;
+}
+
+div.scrollmovie.scrollmovie-focused section div {
+    background: none;
+    padding: 1em 0;
+    border-radius:5px;
+}
+
+div.scrollmovie.scrollmovie-focused section div .graybg {
+	background: rgba(0,0,0,0.1);
+	padding: 8px;
+	border-radius: 0;
+}
